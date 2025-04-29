@@ -110,7 +110,7 @@ contactForm.addEventListener('submit', (e) => {
     submitBtn.disabled = true;
     
     // Enviar o email usando EmailJS
-    emailjs.send('service_id', 'template_id', templateParams)
+    emailjs.send('service_1w6lnpp', 'template_g4jf13y', templateParams)
         .then(function(response) {
             console.log('Email enviado!', response.status, response.text);
             alert('Mensagem enviada com sucesso! Em breve entrarei em contato.');
